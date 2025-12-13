@@ -210,6 +210,14 @@ The dashboard supports 50 major NSE-listed stocks across sectors:
 
 This portfolio analytics dashboard transforms complex financial analysis into an accessible, visual experience. By combining modern web technologies with robust quantitative libraries, it empowers investors to make data-driven decisions with confidence.
 
+## License
+
+This project is licensed under the MIT License.
+
 ---
 
-**Built with precision. Designed for clarity. Powered by data.**
+## Acknowledgments
+
+- [Streamlit](https://streamlit.io/) for the amazing framework
+- [yfinance](https://github.com/ranaroussi/yfinance) for financial data
+- [Plotly](https://plotly.com/) for interactive visualizations
