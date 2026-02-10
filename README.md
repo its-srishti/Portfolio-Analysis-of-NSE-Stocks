@@ -209,7 +209,3 @@ The dashboard supports 50 major NSE-listed stocks across sectors:
 ## Conclusion
 
 This portfolio analytics dashboard transforms complex financial analysis into an accessible, visual experience. By combining modern web technologies with robust quantitative libraries, it empowers investors to make data-driven decisions with confidence.
-
----
-
-**Built with precision. Designed for clarity. Powered by data.**
