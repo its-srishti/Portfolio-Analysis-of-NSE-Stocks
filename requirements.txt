@@ -1,5 +1,6 @@
+streamlit==1.42.0
+yfinance
 pandas
-streamlit
 plotly
 quantstats==0.0.81
-yfinance
+altair==4.2.2
