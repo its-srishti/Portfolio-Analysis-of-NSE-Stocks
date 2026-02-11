@@ -18,7 +18,11 @@ nse_tickers = [
     "BAJAJ-AUTO.NS", "BRITANNIA.NS", "CIPLA.NS", "HDFCLIFE.NS", "SBILIFE.NS",
     "APOLLOHOSP.NS", "BPCL.NS", "TATACONSUM.NS", "UPL.NS", "VEDL.NS"
 ]
-tickers = st.sidebar.multiselect("Select NSE Stocks:", options = nse_tickers, default = ["RELIANCE.NS", "HDFCBANK.NS", "TCS.NS"])
+tickers = st.sidebar.multiselect("Select NSE Stocks:", options=nse_tickers, placeholder="Choose stocks to analyse...")
+
+if not tickers:
+    st.info("Please select at least one stock from the sidebar to get started.")
+    st.stop()
 
 weights = []
 
