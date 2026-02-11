@@ -1,5 +1,5 @@
 pandas
 streamlit
 plotly
-quantstats
+quantstats==0.0.81
 yfinance
